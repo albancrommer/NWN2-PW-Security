@@ -1,21 +1,29 @@
 ################################################################################
 
-Ce package comprend le script requis pour une sécurisation de votre module
+Ce package comprend le script requis pour une sÃ©curisation de votre module
 persistant.
 
-Le systeme fonctionne avec la base de données campagne du serveur.
+Le systeme fonctionne avec la base de donnÃ©es campagne du serveur.
 
-Vous trouverez dans le répertoire erf les deux fichiers à ajouter à votre module
+Vous trouverez dans le rÃ©pertoire erf les deux fichiers Ã  ajouter Ã  votre module
 
- - e_mod_pconload.nss
+
+////////////////////////////////////////////////////////////////////////////////
+// e_mod_pconload.nss
+////////////////////////////////////////////////////////////////////////////////
  
- Script correspondant à l'evenement OnPCLoaded du module.
+ Script correspondant Ã  l'evenement OnPCLoaded du module.
  
- En cas d'ajout à un script existant, ajoutez simplement la fonction Secu() et 
+ En cas d'ajout Ã  un script existant, ajoutez simplement la fonction Secu() et 
  appelez la dans le contexte principal (main() ) du script.
  
- - gui_secu_script.nss
  
- Script correspondant à la saisie du mot de passe par le joueur.
  
- ################################################################################
+////////////////////////////////////////////////////////////////////////////////
+// gui_secu_script.nss
+////////////////////////////////////////////////////////////////////////////////
+ 
+ Script correspondant Ã  la saisie du mot de passe par le joueur.
+ 
+ 
+ 
